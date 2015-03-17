@@ -1,0 +1,104 @@
+html body {font-family: "Comic Sans MS", cursive, sans-serif;}
+
+body {
+
+    background: url('../images/login_cover.jpg')no-repeat fixed;
+    background-size: 100% 100%;
+}
+
+h1 {
+
+    color: navy;
+    margin-left: 20px;
+}
+
+.inner-wrapper{
+
+  	background: rgba(255,255,255,0.7);
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgba(255, 255, 255, 0.701961);
+    padding: 30px 40px;
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    
+    -webkit-box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+    box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+    zoom: 1;
+    width: 375px;
+    margin-left: 50px;
+    margin-top: -50px;
+}
+
+.outer-wrapper {
+
+    position: relative;
+    border: none;
+    margin-top: 200px;
+    margin-left: 450px;
+}
+
+.fieldgroup {
+
+    position: relative;
+    text-align: left;
+    overflow: hidden;
+}
+
+span.error {
+
+    font-size: 13px;
+    line-height: 17px;
+    color: #dd3737;
+    font-weight: normal;
+}
+
+.button {
+
+  	margin-top: 10px;
+    margin-left: 184px;
+  	width: 300px;
+  	padding:5px 10px;
+}
+
+.form-control{
+
+	  margin-top: 25px;
+}
+
+.xaxa{
+
+	  margin-top: 25px;
+}
+
+a.label{
+
+    font-size: 85%;
+    margin-left: 5px;
+    color: #337ab7;
+    margin-top: 50px;
+    margin-left: -300px;
+    float: left;
+    width: 300px;
+}
+
+.this-title{
+
+
+}
