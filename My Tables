@@ -1,0 +1,31 @@
+CREATE TABLE advertising(
+    
+    id_advertising int NOT NULL AUTO_INCREMENT,
+    title varchar(500),
+    role varchar(500),
+    requirement varchar(800),
+    add_info varchar(255),
+    salary varchar(255),
+    time_type varchar(255),
+    end_date date,
+    contact_email varchar(255),
+    contact_phone varchar(255),
+    
+    PRIMARY KEY (id_advertising)
+)
+
+
+CREATE TABLE agencies (
+
+    id_agency int(11) NOT NULL AUTO_INCREMENT,
+    about_title varchar(255) NULL,
+    about_us varchar(10000) NULL,
+    address_word varchar(255) NULL,
+    address_map varchar(255) NULL,
+    phone varchar(255) NULL,
+    email varchar(255) NULL,
+    web_site varchar(255) NULL,
+    established_date date NULL,
+
+    PRIMARY KEY (id_agency)
+)

@@ -1,0 +1,83 @@
+#contentLeft {
+
+    z-index: 10;
+    height: 100%;
+    /*padding-top: 100%;*/
+    padding-top: 200px;
+    /*position: fixed;*/
+}
+
+#leftNavigation > li.active {
+
+    background-color: #ffffff;
+}
+
+#leftNavigation li a {
+
+    /*color: #686868;*/
+    color: white;
+    border-bottom: solid 1px #A1ACB2;
+
+    font-size: 1.04rem;
+    /*font-size: 11px;*/
+    display: block;
+    padding: 0.8rem 1rem 0.8rem 3rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+}
+
+#leftNavigation li ul {
+
+    background-color: #6a7782;
+    display: none;
+    margin: 0;
+}
+
+#leftNavigation li ul li a {
+
+    border-bottom: solid 1px #A1ACB2;
+}
+
+#leftNavigation, #leftNavigation li ul {
+
+    list-style: none;
+    padding: 0;
+}
+
+#leftNavigation li a .leftNavIcon {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3rem;
+    padding: 0.8rem 0;
+    text-align: center;
+}
+
+#leftNavigation li ul li:last-child a {
+
+    border-bottom: none;
+}
+
+/*#leftNavigation li a:hover {
+
+    color: #555555;
+}*/
+
+#leftNavigation li ul li.active a {
+
+    color: #555555;
+}
+
+#leftNavigation li.active > a {
+
+    color: #555555;
+}
+
+#leftNavigation li.active ul {
+
+    display: block;
+}

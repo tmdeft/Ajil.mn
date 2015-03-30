@@ -1,0 +1,172 @@
+/*  */
+.panel-default {
+
+    border-color: #ddd;
+    width: 70%;
+    margin: auto;
+    height: 1200px;
+}
+
+.panel-body{
+
+	padding: 0px;
+}
+
+.org_logo{
+
+	float: left;
+	width: 40%;
+	height: 100%;
+    background: url("../../images/organization_logo/logo_BSB.png") scroll no-repeat center,
+    			url("../../images/org_bg.png") left top repeat;
+    background-size: 25%, auto;
+
+    -webkit-filter: drop-shadow(12px 12px 3px rgba(0,0,0,0.5));
+    filter: url(#drop-shadow);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+    filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+	
+}
+
+.org_body{
+
+	/*background-color: #eaebef;*/
+	height: 90px;
+}
+
+.org_menu{
+
+	float: left;
+	width: 60%;
+	height: 100%;
+	/*background-color: #eaebef;*/
+	/*background-color: #345971;*/
+  	background-image: url("../../images/org_bg.png");
+}
+
+.tab_menu{
+
+	text-align: center;
+	text-decoration: underline; 
+	width: 31%;
+	height: 60%;
+	margin-top: 36px;
+}
+
+ul{
+  margin-top: -10;
+}
+
+/* Begin */
+.cretWork{
+
+	width: 100%;
+}
+
+.item{
+
+	margin-top: 10px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #e5e5e5;
+	border-top: 1px solid #e5e5e5;
+}
+
+.info{
+
+	margin-left: 100px;
+}
+
+.job_edit, .job_remove{
+
+	float: right;
+	padding-left: 15px;
+}
+
+/* About */
+.about_title{
+
+	font:normal 60pt Arial;
+ 	text-shadow: 0 1px 0 #ccc,0 2px 0 #c9c9c9,0 3px 0 #bbb,0 4px 0 #b9b9b9,0 5px 0 #aaa,0 6px 1px rgba(0,0,0,.1),
+				 0 0 5px rgba(0,0,0,.1),0 1px 3px rgba(0,0,0,.3),0 3px 5px rgba(0,0,0,.2),0 5px 10px rgba(0,0,0,.25),
+				 0 10px 10px rgba(0,0,0,.2),0 20px 20px rgba(0,0,0,.15);
+}
+
+.about_title, .about_this{
+
+	text-align: center;
+}
+
+.about_this, .about_date{
+
+	margin-top: 20px;
+}
+
+.about_date{
+
+	float: right;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #000000, 0 0 70px #000000, 0 0 80px #000000, 0 0 100px #000000, 0 0 150px #000000;
+}
+
+.about_edit{
+
+	margin-top: -40px;
+	float: right;
+}
+
+/* Contact */
+.contact_map{
+
+	position: absolute;
+	margin-top: -40px;
+	margin-left: -40px;
+	width: 111.2%;
+	height: 677px;
+}
+
+.contact_this{
+
+	position: relative;
+	width: 111.3%;
+	height: 300px;
+	margin-left: -40.6px;
+	margin-top: 340px;
+	background: rgba(70,87,101,0.9);
+}
+
+.contact_title p{
+
+	color: #bfccd7;
+  	font-size: 12px;
+  	text-align: center;
+  	-webkit-font-smoothing: antialiased;
+  	padding-top: 80px;
+}
+
+.contact_info{
+
+	text-align: center;
+	margin-left: 80px;
+}
+
+.contact_edit{
+
+	margin-right: 40px;
+	margin-top: -40px;
+	float: right;
+}	
+
+.info-post{
+
+	border: 1px solid #758797;
+	color: #fff;
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+	margin-top: 40px;
+}
+
+.row {
+   margin-left: 0px; 
+}

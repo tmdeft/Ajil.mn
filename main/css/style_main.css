@@ -1,0 +1,221 @@
+.search-body{
+
+    margin-left: -3%;
+}
+
+.panel-info {
+
+    border-color: transparent; 
+}
+
+.vertical{
+
+    float: left;
+    width: 15%;
+    margin-top: -46px;
+    margin-left: -16px;
+    z-index: 10;
+    height: 100.2%;
+    background-image: url("../../images/tail-body.gif");
+}
+
+#leftNavigation{
+
+    background-color: #54636F;   
+}
+
+/* Jobs */
+.job{
+
+    border-top: 1px solid #DEDEDE;
+    border-bottom: 1px solid #DEDEDE;
+    margin-top: 20px;
+    height: 91px;
+}
+
+.jobs{
+
+    float: left;
+    width: 80%;
+    margin-left: 35px;
+    /*margin-left: auto;*/
+}
+
+.jobs_title{
+
+    background: url("../../images/education-bg.png");
+    background-repeat: repeat-x;
+}
+
+.jobs_title span{
+
+    color: #245475;
+    background-color: #FFF;
+    background-repeat: no-repeat;
+    line-height: 16px;
+    font-size: 12px;
+    padding-right: 10px;
+    
+}
+
+.job_logo{
+
+    float: left;
+    margin-top: 5px;
+}
+
+.job_content{
+
+    float: left;
+    width: 45%;
+}
+
+.job_title{
+
+
+}
+
+.job_category, .company_name{
+
+    margin-left: 55px;
+    margin-top: -14px;
+}
+
+.job_category{
+
+    width: 50px;
+}
+
+.text_base{
+
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.text_base span{
+
+    color: #405666;
+}
+
+.job_center{
+
+    float: left;
+    width: 20%;
+    height: 100%;
+    border-right: 1px solid #DEDEDE;
+    border-left: 1px solid #DEDEDE;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 1.18rem;
+}
+
+.job_center, .job_end{
+
+    text-align: center;
+}
+
+.job_end{
+
+    float: left;
+    width: 20%;
+    padding-top: 20px;
+}
+
+.job_date{
+
+    font-size: 11px;
+    padding-bottom: 10px;
+}
+
+.job_end a{
+
+    color: #405666;
+}
+
+.job_end a:hover{
+
+    /*color: #015fbf; */
+}
+
+.job_content, .job_center{
+
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+
+/* Medias */
+@media (min-width: 950px) and (max-width: 1240px) {
+
+    .text_base{
+
+        font-size: 8px;
+    }
+
+    .job_date{
+
+        font-size: 9px;
+    }
+
+    .job_titile, .job_center{
+
+        font-size: 10px;
+    }
+
+    /* Width */
+    .job_content{
+
+        width: 40%;
+    }
+
+    .job_center{
+
+        width: 15%;
+    }
+
+    .job_end{
+
+        width: 15%;
+        margin-left: 30px;
+    }
+
+}
+      
+@media (min-width: 650px) and (max-width: 950px) {
+
+    .text_base{
+
+        font-size: 6px;
+    }
+
+    .job_date{
+
+        font-size: 7px;
+    }
+
+    .job_titile, .job_center, .job_end{
+
+        font-size: 8px;
+    }
+
+    /* Width */
+    .job_content{
+
+        width: 37%;
+    }
+
+    .job_center{
+
+        width: 12%;
+    }
+
+    .job_end{
+
+        width: 12%;
+        margin-left: 30px;
+    }
+}
+
+.chg_image{
+
+    margin-left: -20px;
+}

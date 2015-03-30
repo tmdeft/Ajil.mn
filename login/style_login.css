@@ -3,6 +3,7 @@ html body {font-family: "Comic Sans MS", cursive, sans-serif;}
 body {
     
     background: url('../images/login_cover.jpg')no-repeat fixed;
+    /*background-image: url("../images/tail-body.gif");*/
     background-size: 100% 100%;
 }
 
